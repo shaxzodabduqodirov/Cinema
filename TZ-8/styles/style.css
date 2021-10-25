@@ -53,12 +53,6 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
-main{
-  background: #FFFFFF;
-}
-
-
-
 
 /* Rectangle 22 */
 .Welcome {
@@ -87,47 +81,11 @@ margin-bottom: 22px;
     line-height: 14px;
     color: #333333;
 }
-/* Почему мы? */
 
-.green {
-  font-family: "IBM-Plex-Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 62px;
-  color: #a3cc40;
-  margin: 100px 0 100px;
-}
 
-.images {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.parent {
-  width: 245px;
-  margin: 0 0 56px;
-}
-.parent h3 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 26px;
-  text-align: center;
-  color: #333333;
-  margin: 29px 0px 26px;
-}
-.parent p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 11px;
-  line-height: 14px;
-  text-align: center;
-  color: #333333;
-}
 
 .box {
-  background: url(../images/backround\ 24.jpg) no-repeat center/cover;
+  background: url(../images/backround\ 24.jpg);
   clip-path: polygon(0% 0%, 100% 0%, 100% 81%, 0% 100%);
   width: 100%;
   height: 728px;
@@ -150,35 +108,6 @@ margin-bottom: 22px;
 } */
 /* table */
 
-.table {
-
-  border-collapse: collapse;
-  width: 849px;
-}
-.table thead {
-  background-color: #a3cc40;
-  height: 45px;
-  color: #fff;
-  font-size: 20px;
-  line-height: 26px;
-  vertical-align: middle;
-}
-.table__films {
-  background: #373737;
-  height: 45px;
-}
-.table__films2 {
-  background: #4c4d4f;
-  height: 45px;
-}
-tbody td {
-  padding: 0 0 0 25px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 18px;
-  vertical-align: middle;
-}
-
 .menu {
   display: inline-block;
   margin-top: 20px;
@@ -194,12 +123,10 @@ tbody td {
   justify-content: space-between;
 }
 
-
 .menu__list__two {
   display: inline-block;
   justify-content: space-between;
 }
-
 
 .link {
   color: #fff;
@@ -208,11 +135,10 @@ tbody td {
   margin-right: 50px;
 }
 
-
 .link:hover{
-color: #a3cc40;
-text-decoration: underline;
-transition: 1s;
+  color:  #a3cc40;
+  text-decoration: underline;
+  transition: 1s;
 }
 
 .link1 {
@@ -257,36 +183,6 @@ transition: 1s;
   justify-content: center;
 }
 
-.head11 {
-  background: url(/images/footer.png);
-  padding: 5%;
-}
-
-.box0 {
-  display: flex;
-}
-
-.contact_logo {
-  width: 30%;
-  color: white;
-}
-
-.logo__text {
-  height: 116px;
-  font-size: 14px;
-  line-height: 18px;
-  color: #ffffff;
-  margin-top: 10px;
-}
-
-.text2 {
-  margin-left: 50px;
-}
-
-.text2 ul {
-  list-style: none;
-}
-
 .link {
   margin-right: 20px;
   font-size: 12px;
@@ -295,71 +191,3 @@ transition: 1s;
 
 }
 
-.site {
-  font-size: 20px;
-  line-height: 26px;
-  color: #ffffff;
-}
-
-.contact {
-  font-size: 20px;
-  line-height: 26px;
-  color: #ffffff;
-}
-.h3_class {
-  margin-top: 20px;
-  font-family: "IBM Plex Sans";
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-
-}
-.paragraf{
-font-family: "IBM Plex Sans";
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 14px;
-text-align: center;
-margin-top: 30px;
-padding-bottom: 25px;
-color: #333333;
-
-}
-
-.clas{
-background: url(../images/kino.png) no-repeat center/cover;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-position: relative;
-
-}
-
-.film{
-
-  font-family: "IBM-Plex-Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 62px;
-  color: #a3cc40;
-  margin: 100px 0 100px;
-} 
-
-.kino{
-    margin: auto;
-    border-radius: 50%;
-    left: 863px;
-    top: 525px;
-  padding: 30px 47px ;
-    
-    
-   
-}
