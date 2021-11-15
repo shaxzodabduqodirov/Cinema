@@ -1,0 +1,13 @@
+.class1 {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.itm1 {
+  background: goldenrod;
+  border: 1px solid green;
+  flex: 0 0 200px;
+}
+.itm1_1 {
+  flex-grow: 1;
+}
