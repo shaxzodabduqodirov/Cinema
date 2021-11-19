@@ -1,25 +1,26 @@
 .container {
-    padding: 0px 89px;
-    margin: 0px auto;
-    max-width: 1124px;
-    box-sizing: border-box;
+  padding: 0px 89px;
+  margin: 0px auto;
+  max-width: 1124px;
+  box-sizing: border-box;
 }
 
 .link-white {
-    display: inline-block;
-    color: #fff;
-    font-weight: 500;
-    transition: 0.2s;
-    border-bottom: 1px solid transparent;
-    text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.2s;
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+  margin-right: 50px;
 }
 
 .link-white:hover {
-    color: #a3cc40;
-    border-color: #a3cc40;
+  color: #a3cc40;
+  border-color: #a3cc40;
 }
 
 .link-white_big {
-    margin-right: 39px;
-    text-transform: uppercase;
+  margin-right: 39px;
+  text-transform: uppercase;
 }

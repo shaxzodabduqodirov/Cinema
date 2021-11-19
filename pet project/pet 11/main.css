@@ -1,13 +1,38 @@
-.class1 {
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 24px;
+  background-color: burlywood;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
   display: flex;
   flex-direction: column;
- 
 }
-.itm1 {
-  background: goldenrod;
-  border: 1px solid green;
-  flex: 0 0 200px;
+
+.header {
+  background-color: #794F45;
+  padding: 30px;
+  text-align: center;
 }
-.itm1_1 {
-  flex-grow: 1;
+
+.main {
+  padding: 30px;
+  flex:1 1 auto;
+}
+
+.footer {
+  background-color: #794F45;
+  padding: 30px;
+  text-align: center;
 }

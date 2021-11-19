@@ -49,6 +49,10 @@
     margin: 0;
 }
 
+html{
+    font-size: 1.42vw;
+}
+
 body {
     font-family: 'IBM-Plex-Sans';
 }
@@ -71,7 +75,7 @@ body {
     bottom: 0px;
     right: 0;
     border-bottom: 10rem solid #fff;
-    border-left: 90.625rem solid transparent;
+    border-left: 120.625rem solid transparent;
 }
 
 .header-container {
@@ -445,7 +449,7 @@ body {
 
 /*  Подарок каждому! */
 
-.present {
+/* .present {
     background: url(../image/7.png) no-repeat center/cover;
     max-width: 100%;
     height: 39.4375rem;
@@ -456,7 +460,7 @@ body {
 .present::after {
     content: '';
     position: absolute;
-    top: 167.75rem;
+    top: 167em;
     right: 0;
     border-bottom: 9.0625rem solid #fff;
     border-left: 100vw solid transparent;
@@ -465,7 +469,7 @@ body {
 .present::before {
     content: '';
     position: absolute;
-    top: 136.3125rem;
+    top: 136.5rem;
     right: 0;
     border-top: 13.1875rem solid #fff;
     border-right: 100vw solid transparent;
@@ -478,7 +482,7 @@ body {
     position: absolute;
     border-radius: 100%;
     bottom: 13.4375rem;
-    left: 3.125rem;
+    left: -10.5625rem;
 }
 
 .present__text {
@@ -535,6 +539,95 @@ body {
     border: 0.0625rem solid rgba(163, 204, 64, 0.62);
     transition: 0.3s;
     box-shadow: 0 0.125rem 0.5625rem rgba(144, 210, 61, 0.3);
+} */
+
+.gift {
+    background-image: url(/image/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    background-position-y: -5rem;
+    padding-bottom: 12.8rem;
+    padding-top: 4.9rem;
+    margin-top: 6.35rem;
+    position: relative;
+}
+
+.gift::after {
+    content: '';
+    position: absolute;
+    bottom: -0.05rem;
+    right: -0.05rem;
+    border-bottom: 12.3rem solid #fff;
+    border-left: 149vw solid transparent;
+}
+
+.gift::before {
+    content: '';
+    position: absolute;
+    top: -0.05rem;
+    right: 0;
+    border-top: 5.45rem solid #fff;
+    border-right: 100vw solid transparent;
+}
+
+.gift__inner {
+    position: relative;
+}
+
+.gift__heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 3.65rem;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.gift__text {
+    font-weight: normal;
+    font-size: 0.55rem;
+    line-height: 0.65rem;
+    text-align: end;
+    color: #FFFFFF;
+    margin-top: 1.9rem;
+}
+
+.gift__content {
+    width: 100%;
+    max-width: 27.4rem;
+    margin-left: auto;
+}
+
+.gift__img {
+    border-radius: 100%;
+    position: absolute;
+    top: -7.95rem;
+    left: 0;
+}
+
+.gift__button {
+    display: block;
+    background-color: #a3cc40;
+    font-size: 0.75rem;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 0.55rem;
+    margin-top: 1.65rem;
+    margin-left: auto;
+    padding: 0.35rem 1.6rem;
+    border: 0.05rem solid rgba(163, 204, 64, 0);
+    transition: 0.3s;
+    box-shadow: 0 0.1rem 0.45rem rgb(144 210 61 / 0%);
+}
+
+.gift__button:hover {
+    color: yellowgreen;
+    background: #fff;
+    border: 0.05rem solid rgba(163, 204, 64, 0.62);
+    transition: 0.3s;
+    box-shadow: 0 0.1rem 0.45rem rgba(144, 210, 61, 0.3);
 }
 
 /* Подарок каждому! end */
@@ -549,7 +642,7 @@ body {
     color: #A3CC40;
     font-size: 3rem;
     font-weight: 500;
-    margin-bottom: 2.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .section__commit {
@@ -731,7 +824,7 @@ body {
 #reviews::before {
     content: '';
     position: absolute;
-    top: 0;
+    top: 9px;
     right: 0;
     border-top: 9.0625rem solid #fff;
     border-right: 100vw solid transparent;
@@ -1067,12 +1160,12 @@ form {
 
 .footer {
     background: #A3CC40;
-    color: white;
+    color: #FFFFFF;
     padding: 3.125rem;
 }
 
 .footer__link {
-    color: white;
+    color: #FFFFFF;
 }
 
 .footer__contact {
@@ -1085,7 +1178,7 @@ form {
     Width: 10.0625rem;
     Height: 2.5625rem;
     position: relative;
-    margin: 0.375rem 0 0.89rem 4.6875rem;
+    margin: 0.375rem 0 0.89rem -3.2875rem;
    
 }
 
@@ -1093,7 +1186,7 @@ form {
     font-weight: 400;
     font-size: 0.875rem;
     line-height: 1.125rem;
-    margin-left: 4.6875rem;
+    margin-left: -3.3125rem;
 }
 
 .innopolis__img {
@@ -1124,7 +1217,7 @@ img {
 }
 
 .site__link {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     bottom: 5.25rem;
     list-style: none;
@@ -1150,7 +1243,7 @@ img {
 }
 
 .contact__link {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -1185,7 +1278,7 @@ ul {
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 1.1875rem;
-    margin: 1.75rem 0 0 0.3125rem;
+    margin: 1.75rem 0 0 -3.3125rem;
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 1.1875rem;
@@ -1195,7 +1288,7 @@ ul {
 /* social */
 
 .social {
-    margin: 0.625rem 0 0 -1rem;
+    margin: 0.625rem 0 0 -4rem;
     display: flex;
 }
 
