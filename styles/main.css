@@ -54,7 +54,7 @@ html{
 }
 
 body {
-    font-family: 'IBM-Plex-Sans';
+    font-family: 'IBM-Plex-Sans',sans-serif;
 }
 
 /* Global end*/
@@ -72,9 +72,9 @@ body {
 .blok::after {
     content: '';
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     right: 0;
-    border-bottom: 10rem solid #fff;
+    border-bottom: 1rem solid #fff; 
     border-left: 120.625rem solid transparent;
 }
 
@@ -85,7 +85,6 @@ body {
 }
 
 .header {
-    width: 100%;
     Height: 41.0625rem;
 }
 
@@ -123,7 +122,7 @@ body {
 }
 
 .blok__call {
-    margin-left: 0.125rem;
+    margin-left: 4.125rem;
     margin-right: 2.9375rem;
     background: #fff;
     padding: 0 0.25rem 0 0.375rem;
@@ -178,7 +177,6 @@ body {
 
 .block01__dropdown {
     position: absolute;
-    width: 1.4375rem;
     height: 2.875rem;
     font-weight: 500;
     font-size: 0.75rem;
@@ -212,7 +210,7 @@ body {
 
 .blok__ul li {
     display: inline-block;
-    margin-right: 2rem;
+    margin-right: 4rem;
     padding-top: 0.875rem;
 }
 
@@ -251,7 +249,7 @@ body {
     box-shadow: 0 1.6875rem 2.4375rem rgb(163 204 64 / 18%);
     padding: 1.875rem 2.9375rem;
     margin-left: 29.5625rem;
-    top: 32.8125rem;
+    top: 29.8125rem;;
     z-index: 1;
     width: 100%;
     box-sizing: border-box;
@@ -378,11 +376,15 @@ body {
 }
 
 .table__row {
-    width: 5rem;
-    line-height: 1.125rem;
     height: 2.8125rem;
+    line-height: 1.125rem;
     padding: 0 1.5rem;
     box-sizing: border-box;
+}
+
+.table tr:hover{
+    background-color: #4C4D4F;
+    transition: 0.3s;
 }
 
 .table__cell-head {
@@ -410,7 +412,6 @@ body {
 }
 
 .table_header {
-    width: 53.0625rem;
     border-radius: 5.625rem;
     margin: 3.125rem 3.125rem 3.125rem 3.125rem;
 }
@@ -418,7 +419,7 @@ body {
 
 .table_header tr {
     background: #373737;
-    height: 2.8125rem;
+    
 }
 
 .two {
@@ -449,99 +450,7 @@ body {
 
 /*  Подарок каждому! */
 
-/* .present {
-    background: url(../image/7.png) no-repeat center/cover;
-    max-width: 100%;
-    height: 39.4375rem;
-    padding: 0 8.6875rem;
-    margin-bottom: 0.0625rem;
-}
-
-.present::after {
-    content: '';
-    position: absolute;
-    top: 167em;
-    right: 0;
-    border-bottom: 9.0625rem solid #fff;
-    border-left: 100vw solid transparent;
-}
-
-.present::before {
-    content: '';
-    position: absolute;
-    top: 136.5rem;
-    right: 0;
-    border-top: 13.1875rem solid #fff;
-    border-right: 100vw solid transparent;
-}
-
-.present__imbem {
-    align-items: center;
-    height: 17.1875rem;
-    width: 17.25rem;
-    position: absolute;
-    border-radius: 100%;
-    bottom: 13.4375rem;
-    left: -10.5625rem;
-}
-
-.present__text {
-    font-weight: 400;
-    font-size: 0.6875rem;
-    line-height: 0.875rem;
-    text-align: right;
-    margin-bottom: 1.875rem;
-    margin-left: auto;
-    max-width: 34.25rem;
-}
-
-
-.present__content {
-    position: relative;
-    padding-top: 10.125rem;
-    color: white;
-    text-align: end;
-    margin-top: 3.9375rem;
-    font-size: 0.6875rem;
-    margin-right: 2.8125rem;
-}
-
-.present__heading {
-    color: #fff;
-    font-size: 3rem;
-    font-weight: 500;
-    margin-bottom: 2.375rem;
-    margin-left: auto;
-}
-
-.text {
-    font-size: 0.875rem;
-}
-
-.present__button {
-    display: block;
-    background-color: #a3cc40;
-    font-size: 0.75rem;
-    color: white;
-    border: none;
-    text-align: center;
-    border-radius: 0.375rem;
-    margin-top: 2.0625rem;
-    margin-left: auto;
-    padding: 0.5rem 2.8125rem;
-    border: 0.0625rem solid rgba(163, 204, 64, 0);
-    transition: 0.3s;
-    box-shadow: 0 0.125rem 0.5625rem rgb(144 210 61 / 0%);
-}
-.present__button:hover {
-    color: yellowgreen;
-    background: #fff;
-    border: 0.0625rem solid rgba(163, 204, 64, 0.62);
-    transition: 0.3s;
-    box-shadow: 0 0.125rem 0.5625rem rgba(144, 210, 61, 0.3);
-} */
-
-.gift {
+ .gift {
     background-image: url(/image/7.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -602,8 +511,9 @@ body {
 .gift__img {
     border-radius: 100%;
     position: absolute;
-    top: -7.95rem;
+    top: -6.05rem;
     left: 0;
+    margin-left: 5.625rem;
 }
 
 .gift__button {
@@ -628,7 +538,7 @@ body {
     border: 0.05rem solid rgba(163, 204, 64, 0.62);
     transition: 0.3s;
     box-shadow: 0 0.1rem 0.45rem rgba(144, 210, 61, 0.3);
-}
+} 
 
 /* Подарок каждому! end */
 
@@ -741,7 +651,7 @@ body {
 }
 
 .goods__text {
-    margin: -0.8125rem 0 3.625rem -3.625rem;
+    margin: -0.8125rem 0 3.625rem -3.995rem;
     font-size: 0.6875rem;
 }
 
@@ -752,7 +662,7 @@ body {
 }
 
 .card {
-    width: 15.3125rem;
+    
     height: 20.6875rem;
     position: relative;
     display: flex;
@@ -783,7 +693,7 @@ body {
 }
 
 .card__img {
-    Width: 18.4375rem;
+   
     Height: 20.6875rem;
 }
 /* goods end */
@@ -824,7 +734,7 @@ body {
 #reviews::before {
     content: '';
     position: absolute;
-    top: 9px;
+    top: 0.5625rem;
     right: 0;
     border-top: 9.0625rem solid #fff;
     border-right: 100vw solid transparent;
@@ -832,7 +742,7 @@ body {
 
 .section__photo {
     display: flex;
-    margin-left: 3.1875rem;
+    /* margin-left: -0.5125rem; */
 }
 
 .section__photo_text {
@@ -856,7 +766,7 @@ body {
     width: 15.3125rem;
     height: 20.75rem;
     color: white;
-    border-radius: 9px;
+    border-radius: 0.5625rem;
     margin: 4.75rem 5.5625rem 0 0;
 }
 
@@ -966,7 +876,7 @@ form {
 .feedback__select-wraper {
     position: relative;
     background: #DEDEDE;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     width: 20.5rem;
     margin-left: -2.125rem;
 }
@@ -1074,7 +984,7 @@ form {
     padding-right: 0.75rem;
     padding-bottom: 3.875rem;
     padding-top: 0.75rem;
-    margin-top: 30px;
+    margin-top: 1.875rem;
     margin-left: -2.0625rem;
     display: flex;
     align-items: flex-start;
@@ -1150,10 +1060,10 @@ form {
 /* Обратная связь  end*/
 
 /* Map */
-.map {
+/* .map {
     Width: 100%;
     Height: 26.3125rem;
-}
+} */
 /* Map  end*/
 
 /* footer */
@@ -1194,7 +1104,7 @@ form {
 }
 
 img {
-    width: 15.3125rem;
+    
     height: 10.5625rem;
 }
 
@@ -1273,13 +1183,12 @@ ul {
 }
 
 .footer__text {
-    width: 27.25rem;
-    height: 2.4375rem;
-    font-weight: 400;
+     width: 27.25rem; 
+     height: 2.4375rem; 
     font-size: 0.9375rem;
     line-height: 1.1875rem;
     margin: 1.75rem 0 0 -3.3125rem;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 0.9375rem;
     line-height: 1.1875rem;
 }
@@ -1313,3 +1222,24 @@ ul {
 /* social end */
 
 /* footer end */
+
+
+
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 200px;
+    left: 28%;
+  }
+  
+  .owl-nav {
+      
+    color: #90d23d;
+    font-size: 77px;
+  }
+  
+  .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 200px;
+    right: 35%;
+  }
