@@ -300,8 +300,10 @@ body {
 }
 
 .party {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: 0.75rem;
+
 }
 
 .party2 {
@@ -1242,4 +1244,9 @@ ul {
     position: absolute;
     top: 12.5rem;
     right: 35%;
+  }
+  .cinema__table{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      
   }
